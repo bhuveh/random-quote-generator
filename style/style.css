@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC);
+@import url(https://fonts.googleapis.com/css?family=Satisfy);
+
+body {
+  background: url('../image/bg.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.banner {
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 10px 30px 10px;
+  height: auto;
+}
+h2 {
+  color: rgba(244, 242, 253, 0.9);
+  font-family: 'Playfair Display SC', serif;
+  font-size: 50px;
+}
+@media (max-width: 460px) {
+  .banner {
+    padding: 5px 10px 20px 10px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+}
+.quote {
+  height: auto;
+  width: 80%;
+  
+  padding: 4% 10% 4% 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  position: relative;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%);
+  
+  background-color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+  font-family: 'Satisfy', cursive;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.9);
+}
+@media (max-width: 480px) {
+  .quote {
+    width: 90%;
+    padding: 4% 6% 4% 6%;
+    top: 40px;
+    font-size: 20px;
+  }
+}
+
+dd {
+  float: left;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+a {
+  color: rgba(255, 255, 255, 1);
+}
+a:hover {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+a:visited {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+}
+
+.buttons {
+  height: 40px;
+  width: 80%;  
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  position: relative;
+  top: 80px;
+  left: 50%;
+  margin-bottom: 40px;
+  transform: translate(-50%);
+  font-family: 'Playfair Display SC', serif;
+}
+@media (max-width: 480px) {
+  .buttons {
+    width: 90%;
+    top: 40px;
+  }
+}
+.but {
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: white;
+  width: 50%;
+}
+.but:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.but:focus {
+  outline:0;
+}
