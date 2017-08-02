@@ -1,4 +1,5 @@
 # random-quote-generator
-A Breaking Bad random quote generator. Uses WikiQuote API.
+### A Breaking Bad random quote generator. 
+Uses WikiQuote API.
 
-https://bhuveh.github.io/random-quote-generator/
+[Try it out here.](https://bhuveh.github.io/random-quote-generator/ "Random Quote Generator")  
